@@ -1,0 +1,47 @@
+----------Pt i modificat----------
+**********mult mai rapid**********
+
+time ./multiply 1000 8
+
+real	0m1,758s
+user	0m8,512s
+sys	0m0,266s
+
+time ./multiply_seq 1000 8
+
+real	0m5,198s
+user	0m4,542s
+sys	0m0,315s
+
+
+----------Pt j modificat----------
+**********mult mai rapid**********
+
+time ./multiply 1000 8
+
+real	0m1,802s
+user	0m8,504s
+sys	0m0,298s
+
+time ./multiply_seq 1000 8
+
+real	0m5,125s
+user	0m4,520s
+sys	0m0,276s
+
+
+----------Pt k modificat----------
+**********nu e prea bun:)**********
+
+time ./multiply 1000 8
+
+real	0m9,873s
+user	0m11,669s
+sys	0m20,251s
+
+time ./multiply_seq 1000 8
+
+real	0m5,055s
+user	0m4,341s
+sys	0m0,301s
+

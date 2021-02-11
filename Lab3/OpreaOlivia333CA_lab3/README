@@ -1,0 +1,48 @@
+----------EX 2----------
+
+time ./ex2 100 3
+real	0m0,005s
+user	0m0,007s
+sys		0m0,000s
+
+time ./ex2 100 8
+real	0m0,007s
+user	0m0,000s
+sys		0m0,017s
+
+time ./ex2 1000 3
+real	0m0,011s
+user	0m0,008s
+sys		0m0,012s
+
+time ./ex2 1000 8
+real	0m0,027s
+user	0m0,034s
+sys		0m0,040s
+
+Aparent cu mai multe threaduri merge mai prost :)
+
+
+----------EX 4----------
+
+time ./ex4 100 3
+real	0m0,008s
+user	0m0,009s
+sys		0m0,009s
+
+time ./ex4 100 8
+real	0m0,007s
+user	0m0,021s
+sys		0m0,011s
+
+time ./ex4 1000 3
+real	0m0,251s
+user	0m0,695s
+sys		0m0,009s
+
+time ./ex4 1000 8
+real	0m0,168s
+user	0m1,150s
+sys		0m0,024s
+
+Aparent aici merge cum trebuie :)
