@@ -1,0 +1,7 @@
+Oprea Olivia Maria-Magdalena 333CA
+
+Programul implementeaza suma numerele dintr-un vector folosind
+threaduri. Threadurile incrementeaza un AtomicInteger, care se
+afla in main, iar threadul 0 va astepta dupa celelalte threaduri
+sa adune numerele, dupa care va afisa. Asteptarea se face cu un
+cyclic barrier.
