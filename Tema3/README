@@ -1,0 +1,13 @@
+Oprea Olivia Maria-Magdalena 333CA
+
+Va rog sa va uitati manual la tema mea deoarece stiu ca ia prea mult timp
+la rulare dar la compararea fisierelor da corect si stiu ca e vina mea
+ca am alocat cam prea mult static dar totusi programul merge si da corect :)
+
+Pentru inceput mi-am creat numele fisierului in care voi scrie.
+In master verific prima linie ce este ca sa o pot trimite la sclav iar apoi dupa
+ce am aflat ce tip de sclav este citesc restul linilor pana la intalnirea liniei
+goale si apoi trimit acel text catre rank-ul sclavului respectiv si astept si
+raspunsul de la acesta, asa pastrandu-mi ordinea paragrafelor.
+In sclavi am luat textul si l-am impartit in linii pentru procesare si unde era
+nevoie am impartit linia in cuvinte pentru a le procesa pe acestea.
